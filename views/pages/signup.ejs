@@ -1,0 +1,21 @@
+<div id="signup" v-cloak>
+    <form method="post" action="/signup">
+        <div>
+            <label for="username">Username</label>
+            <input type="text" name="username">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password">
+        </div>
+        <div>
+            <label for="fullName">Full Name</label>
+            <input type="text" name="fullName">
+        </div>
+        <div>
+            <button type="submit">Sign up</button>
+        </div>
+
+    </form>
+</div>
+<%- /* Expose server-rendered data as window.SAILS_LOCALS :: */ exposeLocalsToBrowser() %>
